@@ -1,2 +1,2 @@
-export * from './ngzx.module';
-export * from './table/ngzx-table.component';
+export {NgZxTableComponent} from './table/ngzx-table.component';
+export {NgZxModule} from './ngzx.module';
