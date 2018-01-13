@@ -1,12 +1,15 @@
 import {ModuleWithProviders, NgModule} from "@angular/core";
 import {NgZxTableComponent} from "./table/ngzx-table.component";
+import {NgZxSelectComponent} from "./select/ngzx-select.component";
 
 @NgModule({
     declarations: [
-        NgZxTableComponent
+        NgZxTableComponent,
+        NgZxSelectComponent
     ],
     exports: [
-        NgZxTableComponent
+        NgZxTableComponent,
+        NgZxSelectComponent
     ]
 })
 export class NgZxModule {
