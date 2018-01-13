@@ -1,7 +1,7 @@
 "use strict";
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(require("./ngzx.module"));
+var ngzx_table_component_1 = require("./table/ngzx-table.component");
+exports.NgZxTableComponent = ngzx_table_component_1.NgZxTableComponent;
+var ngzx_module_1 = require("./ngzx.module");
+exports.NgZxModule = ngzx_module_1.NgZxModule;
 //# sourceMappingURL=index.js.map

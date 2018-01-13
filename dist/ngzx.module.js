@@ -7,6 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
+var ngzx_table_component_1 = require("./table/ngzx-table.component");
 var NgZxModule = /** @class */ (function () {
     function NgZxModule() {
     }
@@ -15,7 +16,14 @@ var NgZxModule = /** @class */ (function () {
         return { ngModule: NgZxModule_1, providers: [] };
     };
     NgZxModule = NgZxModule_1 = __decorate([
-        core_1.NgModule({})
+        core_1.NgModule({
+            declarations: [
+                ngzx_table_component_1.NgZxTableComponent
+            ],
+            exports: [
+                ngzx_table_component_1.NgZxTableComponent
+            ]
+        })
     ], NgZxModule);
     return NgZxModule;
     var NgZxModule_1;
