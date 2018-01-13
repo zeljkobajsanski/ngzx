@@ -1,0 +1,23 @@
+{
+  "name": "ngzx",
+  "version": "0.0.1",
+  "author": "Zeljko Bajsanski",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "dependencies": {
+    "@angular/core": "^5.2.0",
+    "@angular/forms": "^5.2.0",
+    "@types/jquery": "^3.2.17",
+    "@types/select2": "^4.0.41",
+    "bootstrap-table": "^1.11.2",
+    "jquery": "^3.2.1",
+    "rxjs": "^5.5.6",
+    "select2": "^4.0.6-rc.1"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2"
+  }
+}
